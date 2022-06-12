@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Hackney";
+    src: local("Hackney"), url("./assets/fonts/Hackney/HackneyPersonalUseOnly.ttf") format("truetype");
+}
+
+* {
+    font-family: "Hackney", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
