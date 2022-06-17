@@ -1,0 +1,40 @@
+.background-image {
+    background-image: url("../../assets/pictures/background/sunrise.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: 2667px;
+    background-position: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    color: var(--light-text);
+}
+
+h2, .link {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    color: var(--light-text);
+}
+
+.link {
+    color: var(--light-text);
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--link-hover);
+    }
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-evenly;
+}
